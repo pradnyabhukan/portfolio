@@ -1,0 +1,123 @@
+.project{
+    background-color: #161616; /* Set the background color to a dark shade */
+    color: wheat;
+    /* height: 100vh;  */
+    /* width: 100vw;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .card1 {
+    border: 4px solid;
+    border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
+    background-color: #161616;
+    animation: animateBorder 5s linear infinite;
+}
+
+@keyframes animateBorder {
+  0% {
+    border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
+  }
+  25% {
+    border-image: linear-gradient(to bottom, #f7e1e6, #db2751) 1;
+  }
+  50% {
+    border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
+  }
+  75% {
+    border-image: linear-gradient(to bottom, #f7e1e6, #db2751) 1;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
+  }
+} 
+
+
+  .card2 {
+    border: 4px solid;
+    border-image: linear-gradient(to bottom, #e4780c, #e9ceb3) 1;
+    background-color: #161616;
+    animation: animateBorder2 5s linear infinite;
+}
+
+@keyframes animateBorder2 {
+  0% {
+    border-image: linear-gradient(to bottom, #e4780c, #e9ceb3) 1;
+  }
+  25% {
+    border-image: linear-gradient(to bottom, #e9ceb3, #e4780c) 1;
+  }
+  50% {
+    border-image: linear-gradient(to bottom, #e4780c, #e9ceb3) 1;
+  }
+  75% {
+    border-image: linear-gradient(to bottom, #e9ceb3, #e4780c) 1;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, #e4780c, #e9ceb3) 1;
+  }
+}
+  
+  .card3 {
+    border: 4px solid;
+    border-image: linear-gradient(to bottom, #87a90a, #e2eeb7) 1;
+    background-color: #161616;
+    animation: animateBorder3 5s linear infinite;
+}
+
+@keyframes animateBorder3 {
+  0% {
+    border-image: linear-gradient(to bottom, #87a90a, #e2eeb7) 1;
+  }
+  25% {
+    border-image: linear-gradient(to bottom, #e2eeb7, #87a90a) 1;
+  }
+  50% {
+    border-image: linear-gradient(to bottom, #87a90a, #e2eeb7) 1;
+  }
+  75% {
+    border-image: linear-gradient(to bottom, #e2eeb7, #87a90a) 1;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, #87a90a, #e2eeb7) 1;
+  }
+}
+  
+  .card4 {
+    border: 4px solid;
+    border-image: linear-gradient(to bottom, #0fbc91, #a2ecda) 1;
+    background-color: #161616;
+    animation: animateBorder4 5s linear infinite;
+}
+
+@keyframes animateBorder4 {
+  0% {
+    border-image: linear-gradient(to bottom, #0fbc91, #a2ecda) 1;
+  }
+  25% {
+    border-image: linear-gradient(to bottom, #a2ecda, #0fbc91) 1;
+  }
+  50% {
+    border-image: linear-gradient(to bottom, #0fbc91, #a2ecda) 1;
+  }
+  75% {
+    border-image: linear-gradient(to bottom, #a2ecda, #0fbc91) 1;
+  }
+  100% {
+    border-image: linear-gradient(to bottom, #0fbc91, #a2ecda) 1;
+  }
+}
+
+  
+li{
+    list-style-type: none;
+}
+
+.card-content{
+    font-family: 'Libre Baskerville', serif;
+    /* border-top: 1px solid wheat; */
+}
+
+  

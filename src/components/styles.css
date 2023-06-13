@@ -1,0 +1,219 @@
+/* For WebKit based browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #161616; /* Set the background color of the track */
+  /* color: wheat; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: wheat; /* Set the color of the thumb */
+}
+
+
+
+/* navbar */
+
+.nav_bar{
+  backdrop-filter: blur(100px);
+}
+
+.link{
+  color:wheat;
+}
+  
+/* navbar */
+
+.fade-up-animation {
+  opacity: 0;
+  transform: translateY(60px);
+  animation: fade-up 1s ease forwards;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+/* home */
+.home {
+    background-color: #161616; /* Set the background color to a dark shade */
+    color: wheat;
+    height: 100vh; 
+    /* width: 100vw;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.text-wheat {
+color: wheat;
+}
+
+.gradient-text {
+  /* background-image: -webkit-linear-gradient(right, #ec496e, #f9850f, #8fb800, #2fcea5);
+  background-image: linear-gradient(to right, #ec496e, #f9850f, #8fb800, #2fcea5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent; */
+  color: wheat;
+}
+
+
+.large-font {
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+}
+
+.large-font-content{
+  font-family: 'Libre Baskerville', serif;
+  /* font-family: 'Arvo', sans-serif; */
+  font-size: 50px;
+  color: wheat;
+}
+
+@media (max-width: 768px) {
+  /* For small screens (up to 768px) */
+  .large-font {
+    font-size: 70px;
+  }
+
+  .large-font-content{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+  }
+
+  .large-font-heading{
+    color: wheat;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+  }
+  
+.larger-icon {
+  font-size: 3rem; /* Adjust the size as needed */
+}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  /* For medium screens (769px to 992px) */
+  .large-font {
+    font-size: 80px;
+  }
+
+  .large-font-content{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    
+  }
+
+.larger-icon {
+  font-size: 5rem; /* Adjust the size as needed */
+}
+}
+@media (min-width: 992px) {
+  /* For medium screens (769px to 992px) */
+  .large-font {
+    font-size: 80px;
+  }
+
+  .large-font-content{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    
+  }
+
+.larger-icon {
+  font-size: 5rem; /* Adjust the size as needed */
+}
+}
+  
+/* home */
+
+/* ABOUT */
+.about {
+  background-color: #161616; /* Set the background color to a dark shade */
+  color: wheat;
+  /* min-height: 100vh; */
+  /* width: 100vw; Set the width to 100% of the viewport width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.large-font-heading{
+  color: wheat;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* min-height: 100vh;  */
+}
+
+
+
+.justify-content{
+  text-align: center ;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+
+/* ABOUT */
+
+/* CONTACT */
+.contact{
+  background-color: #161616;
+  padding-top: 10%;
+}
+
+.small-icon {
+  font-size: 3rem; /* Adjust the size as needed */
+  color: wheat;
+  cursor: pointer;
+}
+
+.contact-content{
+  color: wheat;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+}
+
+.contact-icons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+  color: wheat;
+}
+/* CONTACT */
