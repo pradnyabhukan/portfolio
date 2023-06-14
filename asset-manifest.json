@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b80298f6.css",
+    "main.js": "/portfolio/static/js/main.09968675.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PradnyaBhukanResume.pdf": "/portfolio/static/media/PradnyaBhukanResume.6073e023eaa8f664ad61.pdf",
+    "static/media/pb.png": "/portfolio/static/media/pb.f625b8eb9ccb0e02b62b.png",
+    "index.html": "/portfolio/index.html",
+    "main.b80298f6.css.map": "/portfolio/static/css/main.b80298f6.css.map",
+    "main.09968675.js.map": "/portfolio/static/js/main.09968675.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b80298f6.css",
+    "static/js/main.09968675.js"
+  ]
+}
