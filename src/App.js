@@ -11,7 +11,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import resume from "./assets/PradnyaBhukanResume.pdf";
 import {useRef} from 'react';
 
-
+//main App component
 function App() {
   
     const myHome = useRef(null)
