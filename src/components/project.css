@@ -9,7 +9,7 @@
   }
 
 
-  .card1 {
+  .card1, .card8 {
     border: 4px solid;
     border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
     background-color: #161616;

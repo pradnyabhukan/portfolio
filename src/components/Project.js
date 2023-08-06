@@ -13,7 +13,8 @@ import s3 from "../assets/socialmedia3.png";
 import s4 from "../assets/socialmedia4.png";
 import s5 from "../assets/socialmedia5.png";
 import OCI from "../assets/OCI.png";
-import powerBI from "../assets/PowerBi.png";
+import powerBI1 from "../assets/PowerBi.png";
+import powerBI2 from "../assets/PowerBI2.png";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export function FadeInSection(props) {
@@ -198,6 +199,22 @@ const Project = React.forwardRef((props, ref) => {
       ),
       borderColor: "#e4780c",
     },
+    {
+      id: 8,
+      title: "Exploring Job Satisfaction and Demographics",
+      content: (
+        <>
+          - Analyzed data collected from a survey to gain insights into the job satisfaction and demographics of individuals working in the data industry.
+          <br />
+          <br />
+          - Utilized PowerBI to generate visualizations from the dataset.
+          <br />
+          <br />
+          - Highlighted the importance of balancing passion and fair compensation for overall job satisfaction.
+        </>
+      ),
+      borderColor: "#db2751",
+    },
   ];
 
   const modalImages = {
@@ -207,7 +224,8 @@ const Project = React.forwardRef((props, ref) => {
     4: [],
     5: [OCI],
     6: [],
-    7: [powerBI],
+    7: [powerBI1],
+    8: [powerBI2],
     // Add more image URLs for each card as needed
   };
   return (
