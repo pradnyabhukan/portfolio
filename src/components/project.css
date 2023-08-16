@@ -9,7 +9,7 @@
   }
 
 
-  .card1, .card8 {
+  .card1, .card8,.card9 {
     border: 4px solid;
     border-image: linear-gradient(to bottom, #db2751, #f7e1e6) 1;
     background-color: #161616;
@@ -35,8 +35,8 @@
 } 
 
 
-  .card2, .card7 {
-    border: 4px solid;
+  .card2, .card7, .card10 {
+    border: 4px solid #e4780c;
     border-image: linear-gradient(to bottom, #e4780c, #e9ceb3) 1;
     background-color: #161616;
     animation: animateBorder2 5s linear infinite;

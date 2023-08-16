@@ -15,6 +15,9 @@ import s5 from "../assets/socialmedia5.png";
 import OCI from "../assets/OCI.png";
 import powerBI1 from "../assets/PowerBi.png";
 import powerBI2 from "../assets/PowerBI2.png";
+import Wordle1 from "../assets/Wordle1.png"
+import Wordle2 from "../assets/Wordle2.png"
+import Wordle3 from "../assets/Wordle3.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export function FadeInSection(props) {
@@ -64,143 +67,150 @@ const Project = React.forwardRef((props, ref) => {
   const cardData = [
     {
       id: 1,
-      title: "Analyzing Tweets related to ChatGPT",
+      title: "Wordle Game using React.js",
       content: (
         <>
-          - This study employs an in-depth analysis of tweets pertaining to
-          ChatGPT utilizing the Twitter platform, with a specific emphasis on
-          three key aspects: sentiment analysis, hashtag analysis, and location
-          analysis.
+          - Developed an interactive Wordle game using React.js, where players guess a secret word within a limited number of attempts.
           <br />
-          <br />- The analyses determine sentiment (positive, negative,
-          neutral), identify popular hashtags, and reveal global user
-          distribution, providing insights into public perception and engagement
-          with ChatGPT on Twitter.
+          <br />
+          - Implemented game logic, user interface, and responsive design to ensure an engaging and enjoyable user experience.
+          <br />
+          <br />
+          - Incorporated features like letter input, word validation, and feedback on each guess to enhance player engagement.
+          <br/>
+          <br/>
+          <a href="https://pradnyabhukan.github.io/Wordle/">Link</a>
         </>
       ),
       borderColor: "#db2751",
     },
     {
       id: 2,
-      title: "Analyzing Sports Insights on Social Media Platforms",
+      title: "Movie App using Next.js",
       content: (
         <>
-          - Utilized APIs from Twitter, Reddit, and YouTube to collect and clean
-          large amounts of data on user activity and sentiment regarding sports
-          players and events from the 2022 Football and Cricket World Cup.
+          - Created a movie information app inspired by IMDb using Next.js, enabling users to search for movies based on keywords or genres.
           <br />
-          <br />- Developed a Python-based analysis tool and conducted
-          statistical analyses to answer specific research questions related to
-          player popularity and abusive content detection.
+          <br />
+          - Developed user-friendly interfaces for searching and displaying movie details, including title, release date, genre, and poster image.
+          <br />
+          <br />
+          - Utilized external APIs to fetch movie data and dynamically update search results for a seamless user experience.
+          <br />
         </>
       ),
       borderColor: "#e4780c",
     },
     {
       id: 3,
-      title: "Cloud Based Shared Game Sessions",
-      content: (
-        <>
-          - Designed and contributed towards a web game application to allow
-          users to virtually play Pictionary together.
-          <br />
-          <br />
-          - Collaborated with a team of 5 and utilized NodeJS, Docker, Firebase,
-          Google Cloud Platform.
-          <br />
-          <br />- Containerized the application and hosted it on Google Cloud
-          Platform, which allowed it to be executable in any environment.
-        </>
-      ),
-      borderColor: "#87a90a",
-    },
-    {
-      id: 4,
-      title: "Real Time Employee Tracker",
-      content: (
-        <>
-          - Designed and launched a real-time tracking system that tracks the
-          precise location of employees.
-          <br />
-          <br />
-          - Collaborated in a team of 3 to utilize Java, Firebase, and Android
-          Studio for the project.
-          <br />
-          <br />
-          - Delegated tasks to the group and organized the final presentation
-          with solutions for university faculty.
-          <br />
-          <br />- Helped the organization better manage resources and increase
-          employee productivity by 14%.
-        </>
-      ),
-      borderColor: "#0fbc91",
-    },
-    {
-      id: 5,
       title: "Cloud cost estimator widget (Oracle)",
       content: (
         <>
-          - Built cloud cost-estimator widget for OCI Media Flow Service,
-          enabling number of users to estimate costs for media
-          streaming/processing projects with 23% increase in cost estimation
-          accuracy.
+          - Built cloud cost-estimator widget for OCI Media Flow Service, enabling the number of users to estimate costs for media streaming/processing projects with a 23% increase in cost estimation accuracy.
           <br />
           <br />
-          - Designed interface for OCI cloud cost-estimator widget using OJET
-          and KnockoutJS, resulting in a 46% faster navigation.
+          - Designed the interface for the OCI cloud cost-estimator widget using OJET and KnockoutJS, resulting in a 46% faster navigation.
           <br />
           <br />
           <a href="https://www.oracle.com/cloud/costestimator.html">Link</a>
           <br />
         </>
       ),
+      borderColor: "#87a90a",
+    },
+    {
+      id: 4,
+      title: "Feedback project (Oracle)",
+      content: (
+        <>
+          - Developed a feedback project module, resulting in a 54% increase in internal feedback for Oracle product features.
+          <br />
+          <br />
+          - Sent and received data between KnockoutJS frontend and APEX backend using APIs
+          <br />
+          <br />
+          - Contributed to an agile development environment using scrum methodologies, completing 3 user stories per sprint, and collaborating with 12 team members for successful project delivery.
+          <br />
+        </>
+      ),
+      borderColor: "#0fbc91",
+    },
+    {
+      id: 5,
+      title: "Analyzing Tweets related to ChatGPT",
+      content: (
+        <>
+          - This study employs an in-depth analysis of tweets pertaining to ChatGPT utilizing the Twitter platform, with a specific emphasis on three key aspects: sentiment analysis, hashtag analysis, and location analysis.
+          <br />
+          <br />- The analyses determine sentiment (positive, negative, neutral), identify popular hashtags, and reveal the global user distribution, providing insights into public perception and engagement with ChatGPT on Twitter.
+        </>
+      ),
       borderColor: "#0fbc91",
     },
     {
       id: 6,
-      title: "Feedback project (Oracle)",
+      title: "Cloud-Based Shared Game Sessions",
       content: (
         <>
-          - Developed a feedback project module, resulting in 54% increase in
-          internal feedback for Oracle product features.
+          - Designed and contributed towards a web game application to allow users to virtually play Pictionary together.
           <br />
           <br />
-          - Sent and received data between KnockoutJS frontend and APEX backend
-          using APIs
+          - Collaborated with a team of 5 and utilized NodeJS, Docker, Firebase, Google Cloud Platform.
           <br />
-          <br />
-          Contributed to an agile development environment using scrum
-          methodologies, completing 3 user stories per sprint, and collaborating
-          with 12 team members for successful project delivery.
-          <br />
+          <br />- Containerized the application and hosted it on the Google Cloud Platform, which allowed it to be executable in any environment.
         </>
       ),
       borderColor: "#87a90a",
     },
     {
       id: 7,
+      title: "Real-Time Employee Tracker",
+      content: (
+        <>
+          - Designed and launched a real-time tracking system that tracks the precise location of employees.
+          <br />
+          <br />
+          - Collaborated in a team of 3 to utilize Java, Firebase, and Android Studio for the project.
+          <br />
+          <br />
+          - Delegated tasks to the group and organized the final presentation with solutions for university faculty.
+          <br />
+          <br />- Helped the organization better manage resources and increase employee productivity by 14%.
+        </>
+      ),
+      borderColor: "#0fbc91",
+    },
+    {
+      id: 8,
+      title: "Analyzing Sports Insights on Social Media Platforms",
+      content: (
+        <>
+          - Utilized APIs from Twitter, Reddit, and YouTube to collect and clean large amounts of data on user activity and sentiment regarding sports players and events from the 2022 Football and Cricket World Cup.
+          <br />
+          <br />- Developed a Python-based analysis tool and conducted statistical analyses to answer specific research questions related to player popularity and abusive content detection.
+        </>
+      ),
+      borderColor: "#db2751",
+    },
+    {
+      id: 9,
       title: "Analyzing Game Sales",
       content: (
         <>
-          - Conducted in-depth analysis of a comprehensive video game dataset
-          using Power BI.
+          - Conducted an in-depth analysis of a comprehensive video game dataset using Power BI.
           <br />
           <br />
-          - Analyzed sales performance by genre and tracked global sales trends
-          over time.
+          - Analyzed sales performance by genre and tracked global sales trends over time.
           <br />
-          <br />- Utilized advanced data visualization techniques to present
-          insights into market trends, consumer preferences, and competitive
-          dynamics within the gaming industry.
+          <br />- Utilized advanced data visualization techniques to present insights into market trends, consumer preferences, and competitive dynamics within the gaming industry.
           {/* <a href="https://www.oracle.com/cloud/costestimator.html">Link</a> */}
           <br />
         </>
       ),
-      borderColor: "#e4780c",
+      borderColor: "#db2751",
     },
     {
-      id: 8,
+      id: 10,
       title: "Exploring Job Satisfaction and Demographics",
       content: (
         <>
@@ -213,21 +223,24 @@ const Project = React.forwardRef((props, ref) => {
           - Highlighted the importance of balancing passion and fair compensation for overall job satisfaction.
         </>
       ),
-      borderColor: "#db2751",
+      borderColor: "#e4780c",
     },
   ];
+  
 
   const modalImages = {
-    1: [chatgpt, ChatGPT_Hashtag, ChatGPT_Location, ChatGPT_Sentiment],
-    2: [s1, s2, s3, s4, s5],
-    3: [],
-    4: [],
-    5: [OCI],
+    1: [Wordle1, Wordle2, Wordle3],
+    2: [],
+    3: [OCI],
+    5: [chatgpt, ChatGPT_Hashtag, ChatGPT_Location, ChatGPT_Sentiment],
     6: [],
-    7: [powerBI1],
-    8: [powerBI2],
+    7: [],
+    8: [s1, s2, s3, s4, s5],
+    9: [powerBI1],
+    10: [powerBI2],
     // Add more image URLs for each card as needed
   };
+  
   return (
     <div ref={ref} className="py-5 project">
       <Container>
