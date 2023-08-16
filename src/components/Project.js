@@ -18,6 +18,11 @@ import powerBI2 from "../assets/PowerBI2.png";
 import Wordle1 from "../assets/Wordle1.png"
 import Wordle2 from "../assets/Wordle2.png"
 import Wordle3 from "../assets/Wordle3.png"
+import IMDB1 from "../assets/IMDB1.png"
+import IMDB2 from "../assets/IMDB2.png"
+import IMDB3 from "../assets/IMDB3.png"
+import IMDB4 from "../assets/IMDB4.png"
+import IMDB5 from "../assets/IMDB5.png"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export function FadeInSection(props) {
@@ -230,7 +235,7 @@ const Project = React.forwardRef((props, ref) => {
 
   const modalImages = {
     1: [Wordle1, Wordle2, Wordle3],
-    2: [],
+    2: [IMDB1, IMDB2, IMDB3, IMDB4, IMDB5],
     3: [OCI],
     5: [chatgpt, ChatGPT_Hashtag, ChatGPT_Location, ChatGPT_Sentiment],
     6: [],
