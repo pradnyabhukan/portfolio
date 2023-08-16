@@ -1,9 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2e7ce8ec.css",
-    "main.js": "/portfolio/static/js/main.3f5d2719.js",
+    "main.js": "/portfolio/static/js/main.e6206a3e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMDB2.png": "/portfolio/static/media/IMDB2.1904bdf117ca9b2f1f77.png",
+    "static/media/IMDB1.png": "/portfolio/static/media/IMDB1.ffbf10866fa98cc4c3c5.png",
+    "static/media/IMDB4.png": "/portfolio/static/media/IMDB4.39bef611a201ad45520f.png",
+    "static/media/IMDB5.png": "/portfolio/static/media/IMDB5.cf03975e6d729810a55d.png",
     "static/media/socialmedia1.png": "/portfolio/static/media/socialmedia1.af422aacb025da778c4d.png",
+    "static/media/IMDB3.png": "/portfolio/static/media/IMDB3.6416aaa45e4f212e4daf.png",
     "static/media/ChatGPT1.png": "/portfolio/static/media/ChatGPT1.92b19487ab5fedcf0803.png",
     "static/media/PowerBi.png": "/portfolio/static/media/PowerBi.fe8f399518a6f3c48a59.png",
     "static/media/socialmedia2.png": "/portfolio/static/media/socialmedia2.3a77c15e5fb3304ec205.png",
@@ -22,11 +27,11 @@
     "static/media/ChatGPT_Location.png": "/portfolio/static/media/ChatGPT_Location.140762843a9880f0a9e8.png",
     "index.html": "/portfolio/index.html",
     "main.2e7ce8ec.css.map": "/portfolio/static/css/main.2e7ce8ec.css.map",
-    "main.3f5d2719.js.map": "/portfolio/static/js/main.3f5d2719.js.map",
+    "main.e6206a3e.js.map": "/portfolio/static/js/main.e6206a3e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e7ce8ec.css",
-    "static/js/main.3f5d2719.js"
+    "static/js/main.e6206a3e.js"
   ]
 }
