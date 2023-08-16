@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7635b379.css",
-    "main.js": "/portfolio/static/js/main.72e0b8e0.js",
+    "main.css": "/portfolio/static/css/main.2e7ce8ec.css",
+    "main.js": "/portfolio/static/js/main.3f5d2719.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/socialmedia1.png": "/portfolio/static/media/socialmedia1.af422aacb025da778c4d.png",
     "static/media/ChatGPT1.png": "/portfolio/static/media/ChatGPT1.92b19487ab5fedcf0803.png",
@@ -14,16 +14,19 @@
     "static/media/socialmedia4.png": "/portfolio/static/media/socialmedia4.f3922560b57a763868b2.png",
     "static/media/OCI.png": "/portfolio/static/media/OCI.7f248128241f17d1acae.png",
     "static/media/ChatGPT_Hashtag.png": "/portfolio/static/media/ChatGPT_Hashtag.cbff096352331688dd3f.png",
+    "static/media/Wordle3.png": "/portfolio/static/media/Wordle3.d8938dca3d030a192a9a.png",
+    "static/media/Wordle2.png": "/portfolio/static/media/Wordle2.d616ab023810ec3451c6.png",
+    "static/media/Wordle1.png": "/portfolio/static/media/Wordle1.34bfb4136dbfa4445094.png",
     "static/media/socialmedia5.png": "/portfolio/static/media/socialmedia5.04d4e61c17e54a105bd3.png",
     "static/media/ChatGPT_sentiment.png": "/portfolio/static/media/ChatGPT_sentiment.3a36dd84670f232a30fe.png",
     "static/media/ChatGPT_Location.png": "/portfolio/static/media/ChatGPT_Location.140762843a9880f0a9e8.png",
     "index.html": "/portfolio/index.html",
-    "main.7635b379.css.map": "/portfolio/static/css/main.7635b379.css.map",
-    "main.72e0b8e0.js.map": "/portfolio/static/js/main.72e0b8e0.js.map",
+    "main.2e7ce8ec.css.map": "/portfolio/static/css/main.2e7ce8ec.css.map",
+    "main.3f5d2719.js.map": "/portfolio/static/js/main.3f5d2719.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7635b379.css",
-    "static/js/main.72e0b8e0.js"
+    "static/css/main.2e7ce8ec.css",
+    "static/js/main.3f5d2719.js"
   ]
 }
